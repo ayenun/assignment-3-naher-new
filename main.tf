@@ -103,7 +103,7 @@ resource "aws_ecs_task_definition" "naher_task" {
   container_definitions    = jsonencode([
     {
       name      = "naherContainer"
-      image     = "975050003157.dkr.ecr.us-east-1.amazonaws.com/nagaraja:latest"
+      image     = "851725496132.dkr.ecr.us-east-1.amazonaws.com/assignment-3-naher-new:latest"
       cpu       = 256
       memory    = 512
       essential = true
